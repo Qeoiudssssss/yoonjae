@@ -44,18 +44,23 @@ if st.session_state.current_question < len(quiz_data):
     # 답 입력
     user_answer = st.text_input("답을 입력하세요:", key=f"answer_{st.session_state.current_question}")
     
-    if st.button("정답 확인"):
-        if user_answer == current_quiz["answer"]:
-            st.success("윤재야! 정답이야! 엄청난걸 껄껄껄")
-            st.session_state.score += 1
-        else:
-            st.error("윤재야! 이 문제는 모르겠지? 이모한테 물어봐 ㅋㅋ")
-            st.write(f"정답은 '{current_quiz['answer']}'였어!")
-        
-        # "다음 문제" 버튼을 클릭하면 다음 문제로 넘어감
+    # 정답 확인과 다음 문제 버튼을 나란히 배치
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        if st.button("정답 확인"):
+            if user_answer == current_quiz["answer"]:
+                st.success("윤재야! 정답이야! 엄청난걸 껄껄껄")
+                st.session_state.score += 1
+            else:
+                st.error("윤재야! 이 문제는 모르겠지? 이모한테 물어봐 ㅋㅋ")
+                st.write(f"정답은 '{current_quiz['answer']}'였어!")
+    
+    with col2:
         if st.button("다음 문제"):
             st.session_state.current_question += 1
             st.session_state.show_hint = False
+            st.rerun()
 else:
     st.success(f"퀴즈 끝! 최종 점수: {st.session_state.score} / {len(quiz_data)}")
     if st.button("다시 시작"):
