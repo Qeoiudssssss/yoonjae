@@ -1,5 +1,4 @@
 import streamlit as st
-import random
 
 # 제목 설정
 st.title("윤재를 위해 이모가 만든 재미있는 퀴즈!")
@@ -55,12 +54,9 @@ if st.session_state.current_question < len(quiz_data):
         
         st.session_state.current_question += 1
         st.session_state.show_hint = False
-        st.experimental_rerun()
-# 모든 문제를 다 풀었을 때
 else:
     st.success(f"퀴즈 끝! 최종 점수: {st.session_state.score} / {len(quiz_data)}")
     if st.button("다시 시작"):
         st.session_state.score = 0
         st.session_state.current_question = 0
         st.session_state.show_hint = False
-        st.experimental_rerun()
