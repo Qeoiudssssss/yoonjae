@@ -14,8 +14,8 @@ quiz_data = [
     {"question": "고기 먹을 때 심심하면?", "answer": "소심하다", "hint": "ㅅㅅㅎㄷ"},
     {"question": "날마다 새로운 옷을 입는 것은?", "answer": "달력", "hint": "ㄷㄹ"},
     {"question": "세상에서 가장 뜨거운 바다는?", "answer": "열바다", "hint": "ㅇㅂㄷ"},
-    {"question": "칼이 정색하면?", "answer": "검정색", "hint": "ㄱㅈㅅ"}
-    {"question": "세상에서 제일 윤재를 사랑하는 사람 두명은?", "answer": "아빠엄마", "hint": "ㅇㅃㅇㅁ"}
+    {"question": "칼이 정색하면?", "answer": "검정색", "hint": "ㄱㅈㅅ"},
+    {"question": "세상에서 제일 윤재를 사랑하는 사람 두명은?", "answer": "아빠엄마", "hint": "ㅇㅃㅇㅁ"},
 ]
 
 # 세션 상태 초기화
