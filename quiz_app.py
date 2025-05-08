@@ -6,14 +6,13 @@ st.title("윤재를 위해 이모가 만든 재미있는 퀴즈!")
 
 # 퀴즈 문제와 답 설정
 quiz_data = [
-    {"question": "아빠가 길을 가다가 돈을 주웠어요. 얼마일까요?", "answer": "이만원", "hint": "ㅇㅁㅇ"},
+    {"question": "세상에서 가장 잘생긴 가위는?", "answer": "핸썹가위", "hint": "ㅎㅆㄱㅇㅇ"},
     {"question": "세상에서 가장 빠른 떡은?", "answer": "헐레벌떡", "hint": "ㅎㄹㅂㄸ"},
-    {"question": "진짜 귀여운 돼지는?", "answer": "꿀꿀이", "hint": "ㄲㄲㅇ"},
+    {"question": "미소가 가장 예쁜 사람은?", "answer": "광대", "hint": "ㄱㄷㄷ"},
     {"question": "오리가 옆으로 가면?", "answer": "옆으로가오리", "hint": "ㅇㅇㄹㄱㅇㄹ"},
-    {"question": "세상에서 가장 달콤한 술은?", "answer": "입술", "hint": "ㅇㅅ"},
+    {"question": "우유가 옆으로 넘어지면?", "answer": "아야", "hint": "ㅇㅇㅇ"},
     {"question": "고기 먹을 때 심심하면?", "answer": "소심하다", "hint": "ㅅㅅㅎㄷ"},
     {"question": "날마다 새로운 옷을 입는 것은?", "answer": "달력", "hint": "ㄷㄹ"},
-    {"question": "신이 화가 나면?", "answer": "신발끈", "hint": "ㅅㅂㄲ"},
     {"question": "세상에서 가장 뜨거운 바다는?", "answer": "열바다", "hint": "ㅇㅂㄷ"},
     {"question": "칼이 정색하면?", "answer": "검정색", "hint": "ㄱㅈㅅ"}
 ]
