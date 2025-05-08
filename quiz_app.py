@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 제목 설정
-st.title("윤재를 위해 졔이모가 만든 재미있는 퀴즈!")
+st.title("윤재를 위해 이모가 만든 재미있는 퀴즈!")
 
 # 퀴즈 문제와 답 설정
 quiz_data = [
@@ -58,4 +58,7 @@ if st.session_state.current_question < len(quiz_data):
             st.session_state.show_hint = False
 else:
     st.success(f"퀴즈 끝! 최종 점수: {st.session_state.score} / {len(quiz_data)}")
-    if st.button
+    if st.button("다시 시작"):
+        st.session_state.score = 0
+        st.session_state.current_question = 0
+        st.session_state.show_hint = False
