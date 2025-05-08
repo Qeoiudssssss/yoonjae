@@ -6,7 +6,7 @@ st.title("윤재를 위해 이모가 만든 재미있는 퀴즈!")
 
 # 퀴즈 문제와 답 설정
 quiz_data = [
-    {"question": "세상에서 가장 잘생긴 가위는?", "answer": "핸썹가위", "hint": "ㅎㅆㄱㅇㅇ"},
+    {"question": "세상에서 가장 잘생긴 가위는?", "answer": "핸썸가위", "hint": "ㅎㅆㄱㄱㅇ"},
     {"question": "세상에서 가장 빠른 떡은?", "answer": "헐레벌떡", "hint": "ㅎㄹㅂㄸ"},
     {"question": "미소가 가장 예쁜 사람은?", "answer": "광대", "hint": "ㄱㄷㄷ"},
     {"question": "오리가 옆으로 가면?", "answer": "옆으로가오리", "hint": "ㅇㅇㄹㄱㅇㄹ"},
@@ -15,6 +15,7 @@ quiz_data = [
     {"question": "날마다 새로운 옷을 입는 것은?", "answer": "달력", "hint": "ㄷㄹ"},
     {"question": "세상에서 가장 뜨거운 바다는?", "answer": "열바다", "hint": "ㅇㅂㄷ"},
     {"question": "칼이 정색하면?", "answer": "검정색", "hint": "ㄱㅈㅅ"}
+    {"question": "세상에서 제일 윤재를 사랑하는 사람 두명은?", "answer": "아빠엄마", "hint": "ㅇㅃㅇㅁ"}
 ]
 
 # 세션 상태 초기화
